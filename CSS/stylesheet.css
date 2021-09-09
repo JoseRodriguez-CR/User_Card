@@ -1,0 +1,43 @@
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.userProfile {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 200px;
+    border: 5px solid white;
+}
+
+.topBlock {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(110, 163, 187);
+    color: red;
+}
+
+.bottomBlock {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+/*questions
+1-How to make a border to a cicular image?
+2-Should I create another div break a line and show text below? Or Is there another way?
+*/
+
+
